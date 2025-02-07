@@ -36,7 +36,7 @@ public class CustomerServiceImpl implements CustomerService {
         Customer customer3 = Customer.builder()
                 .id(UUID.randomUUID())
                 .version(1)
-                .customerName("Albertina Ferrreira")
+                .customerName("Albertina Ferreira")
                 .createdDate(LocalDateTime.now())
                 .updateDate(LocalDateTime.now())
                 .build();
